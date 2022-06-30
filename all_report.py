@@ -14,4 +14,5 @@ data = {"page": 0,
 
 r = requests.post(url, json=data, headers=headers).text
 j = json.loads(r)
-pprint.pprint(j)
+last_file = j['result']['reports'][-1]['file']
+print(last_file)
