@@ -31,3 +31,4 @@ headers = {'client-id': '103883', 'api-key': '12fc9ece-0332-40b8-8af1-f51b9da469
 
 # Вывод таблицы в терминале с помощью pandas
 result = pd.read_csv('report.csv', delimiter=';', )
+print(result)
